@@ -428,7 +428,7 @@ h4 {
 
             const chatId = '1347276733';
 
-            const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+            const url = `https://core.telegram.org/bots/api${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
             // Using XMLHttpRequest to avoid potential CORS issues
 
@@ -474,7 +474,7 @@ h4 {
 
             const paymentMethod = document.getElementById('paymentMethod').value;
 
-          if (activationCode === '196923') {
+          if (activationCode === '196924') {
 
                 // Send activation message to Telegram
 
